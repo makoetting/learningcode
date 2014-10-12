@@ -51,5 +51,5 @@ puts "Sorry, no Texas."
 end
 
 city = cities['TX']
-city || 'Does not Exist'
+city ||= 'Does not Exist'
 puts "The city for the state 'TX' is : #{city}"
